@@ -1,12 +1,3 @@
-backend:
-    cloudProvider: genezio
-    language:
-        name: ts
-        packageManager: npm
-    path: server
-    scripts:
-        deploy: npm install
-        local: npm install
-name: todo-list-ts
-region: us-east-1
-yamlVersion: 2
+frontend:
+  path: .
+  framework: none
